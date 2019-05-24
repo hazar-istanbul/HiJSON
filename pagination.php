@@ -27,9 +27,9 @@
             ?>
             <div class="page-nav">
             <?php if($counter > 0 and $page != 0){ ?>
-            <a href="/?p=<?= $page - 1 ;?>"> <<< </a>
+            <a href="/?p=<?= $page - 1 ;?>">Back</a>
             <?php } ?>
             <?php if($counter2 == 1){ ?>
-            <a href="/?p=<?= $page + 1 ;?>" style="position:fixed;top:50%;right:7px;"> >>> </a>
+            <a href="/?p=<?= $page + 1 ;?>">Next</a>
             <?php } ?>
             </div>
